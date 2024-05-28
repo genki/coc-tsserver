@@ -28,6 +28,8 @@
     "onLanguage:typescript.tsx",
     "onLanguage:typescript.jsx",
     "onLanguage:typescriptreact",
+    "onLanguage:nocop.typescript",
+    "onLanguage:typescriptnocop",
     "onLanguage:jsx-tags",
     "onLanguage:jsonc",
     "onCommand:_typescript.configurePlugin",
@@ -62,6 +64,13 @@
       },
       {
         "filetype": "typescriptreact",
+        "patterns": [
+          "package.json",
+          "tsconfig.json"
+        ]
+      },
+      {
+        "filetype": "typescriptnocop",
         "patterns": [
           "package.json",
           "tsconfig.json"
@@ -1177,6 +1186,10 @@
       },
       {
         "language": "typescriptreact",
+        "path": "./snippets/typescript.json"
+      },
+      {
+        "language": "typescriptnocop",
         "path": "./snippets/typescript.json"
       },
       {

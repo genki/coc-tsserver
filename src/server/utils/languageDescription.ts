@@ -28,7 +28,7 @@ export const standardLanguageDescriptions: LanguageDescription[] = [
     diagnosticSource: 'ts',
     diagnosticOwner: 'typescript',
     diagnosticLanguage: DiagnosticLanguage.TypeScript,
-    languageIds: [languageModeIds.typescript, languageModeIds.typescriptreact, languageModeIds.typescripttsx, languageModeIds.typescriptjsx],
+    languageIds: [languageModeIds.typescript, languageModeIds.typescriptreact, languageModeIds.typescriptnocop, languageModeIds.nocoptypescript, languageModeIds.typescripttsx, languageModeIds.typescriptjsx],
     configFilePattern: /^tsconfig(\..*)?\.json$/gi,
     standardFileExtensions: [
       'ts',
